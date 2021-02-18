@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: url(../images/pexels-anastasiya-vragova-6662602.jpg) no-repeat center / cover;
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 100px;
+    text-shadow: 2px 2px 2px rgb(61, 61, 65);
+    color: rgb(223, 21, 206);
+}
+p{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px rgb(121, 110, 110);
+    color: rgb(209, 18, 152);
+
+}
+.countdown-container{
+    width: 900px;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(180, 19, 8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing:content-box;
+    margin-top: 100px;
+}
+.countdown-container .times{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(226, 11, 180);
+    float: left;
+    margin-right: 20px;
+}
+.countdown-container .times h3{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size:60px;
+   color: rgb(236, 28, 174);
+}
+.countdown-container .times p{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size:40px;
+   color: rgb(245, 19, 207);
+}
